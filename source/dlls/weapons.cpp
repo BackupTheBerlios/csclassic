@@ -375,17 +375,6 @@ void W_Precache(void)
 	UTIL_PrecacheOtherWeapon("weapon_handgrenade");
 
 #if !defined( OEM_BUILD ) && !defined( HLDEMO_BUILD )
-	// squeak grenade
-	UTIL_PrecacheOtherWeapon( "weapon_snark" );
-#endif
-
-#if !defined( OEM_BUILD ) && !defined( HLDEMO_BUILD )
-	// hornetgun
-	UTIL_PrecacheOtherWeapon( "weapon_hornetgun" );
-#endif
-
-
-#if !defined( OEM_BUILD ) && !defined( HLDEMO_BUILD )
 	if ( g_pGameRules->IsDeathmatch() )
 	{
 		UTIL_PrecacheOther( "weaponbox" );// container for dropped deathmatch weapons

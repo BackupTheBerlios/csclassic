@@ -123,14 +123,6 @@ LINK32=link.exe
 # PROP Default_Filter "cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;for;f90"
 # Begin Source File
 
-SOURCE=.\aflock.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\agrunt.cpp
-# End Source File
-# Begin Source File
-
 SOURCE=.\airtank.cpp
 # End Source File
 # Begin Source File
@@ -143,31 +135,7 @@ SOURCE=.\animation.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=.\apache.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\barnacle.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\barney.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\bigmomma.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\bloater.cpp
-# End Source File
-# Begin Source File
-
 SOURCE=.\bmodels.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\bullsquid.cpp
 # End Source File
 # Begin Source File
 
@@ -184,10 +152,6 @@ SOURCE=.\client.cpp
 # Begin Source File
 
 SOURCE=.\combat.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\controller.cpp
 # End Source File
 # Begin Source File
 
@@ -219,10 +183,6 @@ SOURCE=.\explode.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=.\flyingmonster.cpp
-# End Source File
-# Begin Source File
-
 SOURCE=.\func_break.cpp
 # End Source File
 # Begin Source File
@@ -239,10 +199,6 @@ SOURCE=.\gamerules.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=.\gargantua.cpp
-# End Source File
-# Begin Source File
-
 SOURCE=.\gauss.cpp
 # End Source File
 # Begin Source File
@@ -256,10 +212,6 @@ SOURCE=.\ggrenade.cpp
 # Begin Source File
 
 SOURCE=.\globals.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\gman.cpp
 # End Source File
 # Begin Source File
 
@@ -287,19 +239,7 @@ SOURCE=.\handgrenade.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=.\hassassin.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\headcrab.cpp
-# End Source File
-# Begin Source File
-
 SOURCE=.\healthkit.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\hgrunt.cpp
 # End Source File
 # Begin Source File
 
@@ -307,31 +247,7 @@ SOURCE=.\wpn_shared\hl_wpn_glock.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=.\hornet.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\hornetgun.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\houndeye.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\ichthyosaur.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\islave.cpp
-# End Source File
-# Begin Source File
-
 SOURCE=.\items.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\leech.cpp
 # End Source File
 # Begin Source File
 
@@ -340,10 +256,6 @@ SOURCE=.\lights.cpp
 # Begin Source File
 
 SOURCE=.\maprules.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\monstermaker.cpp
 # End Source File
 # Begin Source File
 
@@ -367,15 +279,7 @@ SOURCE=.\multiplay_gamerules.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=.\nihilanth.cpp
-# End Source File
-# Begin Source File
-
 SOURCE=.\nodes.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\osprey.cpp
 # End Source File
 # Begin Source File
 
@@ -408,14 +312,6 @@ SOURCE=..\pm_shared\pm_shared.c
 # Begin Source File
 
 SOURCE=.\python.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\rat.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\roach.cpp
 # End Source File
 # Begin Source File
 
@@ -463,14 +359,6 @@ SOURCE=.\spectator.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=.\squadmonster.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\squeakgrenade.cpp
-# End Source File
-# Begin Source File
-
 SOURCE=.\subs.cpp
 # End Source File
 # Begin Source File
@@ -483,23 +371,11 @@ SOURCE=.\teamplay_gamerules.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=.\tempmonster.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\tentacle.cpp
-# End Source File
-# Begin Source File
-
 SOURCE=.\triggers.cpp
 # End Source File
 # Begin Source File
 
 SOURCE=.\tripmine.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\turret.cpp
 # End Source File
 # Begin Source File
 
@@ -520,10 +396,6 @@ SOURCE=.\world.cpp
 # Begin Source File
 
 SOURCE=.\xen.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\zombie.cpp
 # End Source File
 # End Group
 # Begin Group "Header Files"
@@ -591,19 +463,11 @@ SOURCE=.\extdll.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\flyingmonster.h
-# End Source File
-# Begin Source File
-
 SOURCE=.\func_break.h
 # End Source File
 # Begin Source File
 
 SOURCE=.\gamerules.h
-# End Source File
-# Begin Source File
-
-SOURCE=.\hornet.h
 # End Source File
 # Begin Source File
 
@@ -680,10 +544,6 @@ SOURCE=.\soundent.h
 # Begin Source File
 
 SOURCE=.\spectator.h
-# End Source File
-# Begin Source File
-
-SOURCE=.\squadmonster.h
 # End Source File
 # Begin Source File
 

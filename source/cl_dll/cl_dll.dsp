@@ -139,10 +139,6 @@ SOURCE=..\dlls\wpn_shared\hl_wpn_glock.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=..\dlls\hornetgun.cpp
-# End Source File
-# Begin Source File
-
 SOURCE=..\common\interface.cpp
 # End Source File
 # Begin Source File
@@ -164,10 +160,6 @@ SOURCE=..\dlls\satchel.cpp
 # Begin Source File
 
 SOURCE=..\dlls\shotgun.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=..\dlls\squeakgrenade.cpp
 # End Source File
 # Begin Source File
 

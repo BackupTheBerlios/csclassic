@@ -73,11 +73,9 @@ public:
 #define WEAPON_RPG				8
 #define WEAPON_GAUSS			9
 #define WEAPON_EGON				10
-#define WEAPON_HORNETGUN		11
 #define WEAPON_HANDGRENADE		12
 #define WEAPON_TRIPMINE			13
 #define	WEAPON_SATCHEL			14
-#define	WEAPON_SNARK			15
 
 #define WEAPON_ALLWEAPONS		(~(1<<WEAPON_SUIT))
 

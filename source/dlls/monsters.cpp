@@ -29,7 +29,6 @@
 #include "saverestore.h"
 #include "weapons.h"
 #include "scripted.h"
-#include "squadmonster.h"
 #include "decals.h"
 #include "soundent.h"
 #include "gamerules.h"
@@ -2934,25 +2933,6 @@ void CBaseMonster::ReportAIState( void )
 			ALERT( level, ": Stopped for %.2f. ", m_flMoveWaitFinished - gpGlobals->time );
 		else if ( m_IdealActivity == GetStoppedActivity() )
 			ALERT( level, ": In stopped anim. " );
-	}
-
-	CSquadMonster *pSquadMonster = MySquadMonsterPointer();
-
-	if ( pSquadMonster )
-	{
-		if ( !pSquadMonster->InSquad() )
-		{
-			ALERT ( level, "not " );
-		}
-
-		ALERT ( level, "In Squad, " );
-
-		if ( !pSquadMonster->IsLeader() )
-		{
-			ALERT ( level, "not " );
-		}
-
-		ALERT ( level, "Leader." );
 	}
 
 	ALERT( level, "\n" );
